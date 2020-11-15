@@ -21,7 +21,7 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 ## Getting Started
 ### Installation
 * **Pandas** 
-> pip install pandas
+> pip install pandas 
 
 
 ## Temporal analysis
