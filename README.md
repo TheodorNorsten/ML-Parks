@@ -20,18 +20,18 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 
 ## Getting Started
 ### Installation
-* **Pandas** 
+* **Pandas** <br/>
 > pip install pandas 
-<br/>
-* **Seaborn**
+
+* **Seaborn** <br/>
 > pip install seaborn
-<br/>
-* **VADER**
+
+* **VADER** <br/>
 > pip install vaderSentiment
-* **nltk**
+* **nltk** <br/>
 > pip install nltk
-<br/>
-* **gensim**
+
+* **gensim** <br/>
 > pip install gensim
 
 ## Temporal analysis
