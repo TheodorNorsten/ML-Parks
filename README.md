@@ -22,18 +22,23 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 ### 1. Installation
 Below packages are used in this project and can be installed in the command terminal as follows:
 * **Pandas** <br/>
+Used for data analysis and preprocessing.
 > pip install pandas 
 
 * **Seaborn** <br/>
+Used for plotting.
 > pip install seaborn
 
 * **VADER** <br/>
+Used for performing sentiment analysis.
 > pip install vaderSentiment
 
 * **nltk** <br/>
+Used for data preprocessing.
 > pip install nltk
 
 * **gensim** <br/>
+Used for Topic modeling.
 > pip install gensim
 
 ### 2. Twitter API key
