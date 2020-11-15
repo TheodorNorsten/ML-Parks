@@ -12,13 +12,17 @@ Three analysis were then performed, Temporal, Sentiment and Topic Modeling analy
 
 ## Built with
 Python was used during all steps in this project. Pandas DataFrame was used for performing the respective analysis including data preprocessing. All plots was created
-through Seaborn, a python data visualization library. 
+through Seaborn, a python data visualization library. Sentiment analysis was performed using the VADER lexicon. 
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
 * [Seaborn](https://seaborn.pydata.org/)
+* [VADER] (https://github.com/cjhutto/vaderSentiment)
 
+## Getting Started
+### Installation
+* **Pandas** 
+> pip install pandas
 
-## Table of contents
 
 ## Temporal analysis
 
