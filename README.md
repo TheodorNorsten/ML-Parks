@@ -36,6 +36,10 @@ Below packages are used in this project and can be installed in the command term
 * **gensim** <br/>
 > pip install gensim
 
+#### 2. Twitter API key
+1. Create a free twitter developer account. [Free account](https://developer.twitter.com/en/docs/getting-started)
+2. Generate Autentification keys.
+
 ## Temporal analysis
 
 ## Sentiment analysis
