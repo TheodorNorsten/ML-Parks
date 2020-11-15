@@ -23,16 +23,16 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 Below packages are used in this project and can be installed in the command terminal as follows:
 * **Pandas** <br/>
 > pip install pandas 
-<br/>
+
 * **Seaborn** <br/>
 > pip install seaborn
-<br/>
+
 * **VADER** <br/>
 > pip install vaderSentiment
-<br/>
+
 * **nltk** <br/>
 > pip install nltk
-<br/>
+
 * **gensim** <br/>
 > pip install gensim
 
