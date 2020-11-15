@@ -22,7 +22,17 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 ### Installation
 * **Pandas** 
 > pip install pandas 
-
+<br/>
+* **Seaborn**
+> pip install seaborn
+<br/>
+* **VADER**
+> pip install vaderSentiment
+* **nltk**
+> pip install nltk
+<br/>
+* **gensim**
+> pip install gensim
 
 ## Temporal analysis
 
