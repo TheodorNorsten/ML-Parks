@@ -39,7 +39,7 @@ Used for data preprocessing.
 
 * **gensim** <br/>
 Used for Topic modeling.
-> pip install gensim
+> pip install gensim <br/>
 
 ### 2. Twitter API key
 1. Create a free twitter developer account. [Free account](https://developer.twitter.com/en/docs/getting-started)
