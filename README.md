@@ -19,7 +19,8 @@ through Seaborn, a python data visualization library. Sentiment analysis was per
 * [VADER] (https://github.com/cjhutto/vaderSentiment)
 
 ## Getting Started
-### Installation
+### 1. Installation
+Below packages are used in this project and can be installed in the command terminal as follows:
 * **Pandas** <br/>
 > pip install pandas 
 
