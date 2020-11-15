@@ -11,8 +11,11 @@ Three analysis were then performed, Temporal, Sentiment and Topic Modeling analy
 * **Topic Modeling analysis**: What are the activities people engage in while visiting parks.
 
 ## Built with
-Python was used to build this project and specifically Pandas DataFrame was used for all analysis. 
+Python was used during all steps in this project. Pandas DataFrame was used for performing the respective analysis including data preprocessing. All plots was created
+through Seaborn, a python data visualization library. 
 * [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Seaborn](https://seaborn.pydata.org/)
 
 
 ## Table of contents
