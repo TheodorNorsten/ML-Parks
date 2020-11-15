@@ -1,5 +1,6 @@
 # ML-Parks
-Exploring the potential of Twitter data and Natural Language Processing techniques to understand the Usage of parks in Stockholm
+This project is part of my Bachelor degree.
+For full despricption: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
 ## Introduction
 This project Uses Natural Langugage Processing techniques based on Tweets from Twitter in order to understand the usage of parks in Stockholm.
 Data from Twitter were first obtained through Twitters open API. Data from three parks in Stockholm were collected between the periods 2015-2019.
@@ -11,5 +12,13 @@ The respective analysis aims to answer the following questions:
 Three analysis were then performed, Temporal, Sentiment and Topic Modeling analysis. During all the steps Python was used. 
 
 ## Table of contents
+
+## Temporal analysis
+
+## Sentiment analysis
+
+## Topic Modeling
+
 ## Getting Started
+
 ### Installation
