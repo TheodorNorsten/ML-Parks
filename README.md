@@ -11,7 +11,7 @@ This project Uses Natural Langugage Processing techniques based on Tweets from T
 Three analysis were then performed, **Temporal**, **Sentiment** and **Topic Modeling** analysis. Each analysis aimed to answer the following questions:<br/>
 
 * **Temporal analysis**: *How does the distribution of parks vary over time? Yearly, monthly, weekly, hourly and seasonally*.
-* **Sentiment analysis**: *What sentiment,positive,negative or neutral are associated with Tweets from parks*.
+* **Sentiment analysis**: *What sentiment, positive ,negative or neutral are associated with Tweets from parks*.
 * **Topic Modeling analysis**: *What are the activities people engage in while visiting parks*.
 
 ## Built with
