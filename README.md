@@ -51,8 +51,8 @@ Data from Twitter were obtained through Twitters API.The premium search API was 
 * [Premium search query](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/premium-search)
 
 Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:<br/>
-**Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
-The response of the above Query is a JSON-object containing metadata for which the metadta *"Created_at"(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates. 
+**Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.<br/>
+The response of the above Query is a JSON-object containing metadata for which the metadta *"Created_at"*(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates. 
 
 ## Temporal analysis
 
