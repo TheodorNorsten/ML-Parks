@@ -42,7 +42,7 @@ Used for Topic modeling.
 > pip install gensim <br/>
 
 ### 2. Twitter API key
-In order to obtain data from Twitter autentification keys which requires a developer account. 
+In order to obtain data from Twitter autentification keys is needed which requires a developer account. 
 1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Autentification keys.
 
@@ -52,6 +52,7 @@ Data from Twitter were obtained through Twitters API.The premium search API was 
 
 Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:<br/>
 **Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
+The response of the above Query is a JSON-object containing metadata for which the metadta *"Created_at"(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates. 
 
 ## Temporal analysis
 
