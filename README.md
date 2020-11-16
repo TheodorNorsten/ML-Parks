@@ -15,7 +15,7 @@ Three analysis were then performed, **Temporal**, **Sentiment** and **Topic Mode
 * **Topic Modeling analysis**: *What are the activities people engage in while visiting parks*.
 
 ## Built with
-Throughout the project **Python** was used. **Pandas DataFrame** was used for data manipulation,preprocessing and analysis. The Sentiment anaysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
+Throughout the project **Python** was used. **Pandas DataFrame** was used for data manipulation, preprocessing and analysis. The Sentiment analysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
 
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
