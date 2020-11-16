@@ -59,7 +59,7 @@ Data from Twitter were obtained through Twitters API. **The premium search API**
 Twitter data for each park was obtained through a conditional statement including Keyword, hastag(#) and bounding box as follows:
 <br/>
 
-**Obtained Tweets for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
+**Obtained Twitter-data for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
 <br/>
 
 The response of the above request is a **JSON-object** containing a large amount of metadata for which the metadta ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
