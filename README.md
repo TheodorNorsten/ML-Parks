@@ -42,11 +42,16 @@ Used for Topic modeling.
 > pip install gensim <br/>
 
 ### 2. Twitter API key
-1. Create a free twitter developer account. [Free account](https://developer.twitter.com/en/docs/getting-started)
+In order to obtain data from Twitter autentification keys which requires a developer account. 
+1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Autentification keys.
 
 ## Twitter Data
-Data from Twitter were obtained through Twitters API.
+Data from Twitter were obtained through Twitters API.The premium search API was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
+* [Premium search query](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/premium-search)
+
+Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:
+**Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*
 
 ## Temporal analysis
 
