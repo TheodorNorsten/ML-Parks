@@ -45,6 +45,9 @@ Used for Topic modeling.
 1. Create a free twitter developer account. [Free account](https://developer.twitter.com/en/docs/getting-started)
 2. Generate Autentification keys.
 
+## Twitter Data
+Data from Twitter were obtained through Twitters API.
+
 ## Temporal analysis
 
 ## Sentiment analysis
