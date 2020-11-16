@@ -15,7 +15,7 @@ Three analysis were then performed, Temporal, Sentiment and Topic Modeling analy
 * **Topic Modeling analysis**: What are the activities people engage in while visiting parks.
 
 ## Built with
-Throughout the project **Python** was used. Pandas **DataFrame** was used for data manipulation,preprocessing and analysis. The Sentiment anaysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
+Throughout the project **Python** was used. **Pandas DataFrame** was used for data manipulation,preprocessing and analysis. The Sentiment anaysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
 
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
@@ -48,7 +48,7 @@ Used for Topic modeling.
 > pip install gensim <br/>
 
 ### 2. Twitter API key
-In order to obtain data from Twitter autentification keys is needed which requires a developer account. 
+In order to obtain data from Twitters API, autentification-keys is needed which requires a developer account. 
 1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Autentification keys.
 
