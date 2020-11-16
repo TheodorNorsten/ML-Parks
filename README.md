@@ -72,7 +72,7 @@ For this analysis the metadata ***"Created_at"*** was extracted and loaded into 
 4. **Hourly** distribution of park-Tweets.
 
 ## Sentiment analysis
-For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame.The text-data was then cleaned for all characters that doesnt influence the sentiment. Then the **VADER** lexicon was  used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score, each tweet was given a score between **-1**(most extreme negative) and **+1**(most extreme positive).<br/>
+For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. The text-data was then cleaned for all characters that doesnt influence the sentiment. Then the **VADER** lexicon was  used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score, each tweet was given a score between **-1**(most extreme negative) and **+1**(most extreme positive).<br/>
 
 Each tweet was then classified into either **positive**, **negative** or **neutral** based on the sentiment score given by VADER. The classification into the respective categories was based using the typical threshold for classifying the polarity in text as follows. 
 * **Positive Sentiment:** Compound score > 0.05
@@ -80,10 +80,10 @@ Each tweet was then classified into either **positive**, **negative** or **neutr
 * **Neutral Sentiment:** -0.05 < Compound score < 0.05
 <br/>
 Four plots were then created for each park as follows:
-1. Seasonal distribution of Sentiment.
-2. Monthly distribution of Sentiment.
-3. Weekday distribution of Sentiment.
-4. Hourly distribution of Sentiment. 
+1. **Seasonal** distribution of Sentiment.
+2. **Monthly** distribution of Sentiment Score.
+3. **Weekday** distribution of Sentiment Score.
+4. **Hourly** distribution of Sentiment. 
 
 
 ## Topic Modeling
