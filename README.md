@@ -91,7 +91,7 @@ Four plots were then created for each park as follows:
 ## Topic Modeling
 For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. All characters that wasnt a alphabetic letter was then removed. Only **nouns**, **adjective** and **verbs** was used for analysis. After this step the DataFrame could be transformed into a **Document Term Matrix** which is the required input in Topic modeling and then by using the Python module Gensim the **LDA algorithm** could be implemented. 
 
-The LDA model was first run for the pre-determined topics of ***two***,***three*** and ***four***. The pre-determined number of topics used as input to the LDA model was determined based on the output from the respective of the above number of topics. Below is the number of topics selected for each park:
+The LDA model was first run for the pre-determined topics of ***two***, ***three*** and ***four***. The pre-determined number of topics used as input to the LDA model was determined based on the output from the respective of the above number of topics. Below is the number of topics selected for each park:
 
 * **Hagaparken**: 4 topics.
 * **Skogskyrkogården**: 3 topics.
