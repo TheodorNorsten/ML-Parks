@@ -19,7 +19,7 @@ Throughout the project **Python** was used. **Pandas DataFrame** was used for da
 
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
-* [VADER] (https://github.com/cjhutto/vaderSentiment)
+* [VADER](https://github.com/cjhutto/vaderSentiment)
 * [nltk](https://www.nltk.org/)
 * [LDA explanation](https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/)
 * [Seaborn](https://seaborn.pydata.org/)
