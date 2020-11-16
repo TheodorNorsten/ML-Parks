@@ -56,7 +56,7 @@ In order to obtain data from Twitters API, autentification-keys is needed which 
 Data from Twitter were obtained through Twitters API. **The premium search API** was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
 * [Premium search query](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/premium-search)
 
-Twitter data for ech park was obtained through a conditional statement including Keyword, hastag(#) and bounding box as follows:
+Twitter data for each park was obtained through a conditional statement including Keyword, hastag(#) and bounding box as follows:
 <br/>
 
 **Obtained Tweets for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
