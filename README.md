@@ -15,12 +15,14 @@ Three analysis were then performed, Temporal, Sentiment and Topic Modeling analy
 * **Topic Modeling analysis**: What are the activities people engage in while visiting parks.
 
 ## Built with
-Python was used during all steps in this project. Pandas DataFrame was used for performing the respective analysis including data preprocessing. All plots was created
-through Seaborn, a python data visualization library. Sentiment analysis was performed using the VADER lexicon. 
+Throughout the project **Python** was used. Pandas **DataFrame** was used for data manipulation,preprocessing and analysis. The Sentiment anaysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
+
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
-* [Seaborn](https://seaborn.pydata.org/)
 * [VADER] (https://github.com/cjhutto/vaderSentiment)
+* [nltk](https://www.nltk.org/)
+* [LDA explanation](https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/)
+* [Seaborn](https://seaborn.pydata.org/)
 
 ## Getting Started
 ### 1. Installation
