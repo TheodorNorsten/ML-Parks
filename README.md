@@ -40,7 +40,7 @@ Used for performing sentiment analysis.
 > pip install vaderSentiment
 
 * **nltk** <br/>
-Used for data preprocessing.
+Used for stemming and cleaning for stopwords.
 > pip install nltk
 
 * **gensim** <br/>
