@@ -10,9 +10,9 @@ This project Uses Natural Langugage Processing techniques based on Tweets from T
 
 Three analysis were then performed, **Temporal**, **Sentiment** and **Topic Modeling** analysis. Each analysis aimed to answer the following questions:<br/>
 
-* **Temporal analysis**: How does the distribution of parks vary over time? Yearly,monthly,weekly,hourly, and seasonally.
-* **Sentiment analysis**: What sentiment,positive,negative or neutral are associated with Tweets from parks.
-* **Topic Modeling analysis**: What are the activities people engage in while visiting parks.
+* **Temporal analysis**: *How does the distribution of parks vary over time? Yearly, monthly, weekly, hourly and seasonally*.
+* **Sentiment analysis**: *What sentiment,positive,negative or neutral are associated with Tweets from parks*.
+* **Topic Modeling analysis**: *What are the activities people engage in while visiting parks*.
 
 ## Built with
 Throughout the project **Python** was used. **Pandas DataFrame** was used for data manipulation,preprocessing and analysis. The Sentiment anaysis classification was performed using the **VADER** lexion and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
