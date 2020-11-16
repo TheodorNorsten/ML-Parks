@@ -1,5 +1,5 @@
 # Using NLP based on Tweets to understand the Usage of parks in Stockholm.
-This project was conducted as a Bachelor degree thesis were I explored the potential of Twitter-data and NLP techniques to understand the Usage of parks in Stockholm.
+This project was conducted as a Bachelor thesis were I explored the potential of Twitter-data and NLP techniques to understand the Usage of parks in Stockholm.
 <br/>
 For full despricption: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
 ## Introduction
