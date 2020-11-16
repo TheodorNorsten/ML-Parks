@@ -53,12 +53,14 @@ In order to obtain data from Twitters API, autentification-keys is needed which 
 2. Generate Autentification keys.
 
 ## Twitter Data
-Data from Twitter were obtained through Twitters API.The premium search API was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
+Data from Twitter were obtained through Twitters API. **The premium search API** was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
 * [Premium search query](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/premium-search)
 
-Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:<br/>
-**Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.<br/>
-The response of the above Query is a JSON-object containing a large amount of metadata for which the metadta *"Created_at"*(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
+Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:
+<br/>
+**Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
+<br/>
+The response of the above request is a JSON-object containing a large amount of metadata for which the metadta ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
 
 ## Temporal analysis
 For this analysis the metadata *"Created_at"* was extracted and loaded into a Pandas DataFrame and four plots were created using Seaborn.<br/>
