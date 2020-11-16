@@ -78,8 +78,9 @@ Each tweet was then classified into either **positive**, **negative** or **neutr
 * **Positive Sentiment:** Compound score > 0.05
 * **Negative Sentiment:** Compound score < -0.05
 * **Neutral Sentiment:** -0.05 < Compound score < 0.05
-<br/>
+
 Four plots were then created for each park as follows:
+
 
 1. **Seasonal** distribution of Sentiment.
 2. **Monthly** distribution of Sentiment Score.
