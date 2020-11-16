@@ -52,11 +52,31 @@ Data from Twitter were obtained through Twitters API.The premium search API was 
 
 Twitter data for ech park was obtained through a conditional statement including Keyword,hastag(#) and bounding box as follows:<br/>
 **Obtained tweet for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.<br/>
-The response of the above Query is a JSON-object containing metadata for which the metadta *"Created_at"*(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates. 
+The response of the above Query is a JSON-object containing a large amount of metadata for which the metadta *"Created_at"*(timestamp) and *"text"*(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
 
 ## Temporal analysis
+For this analysis the metadata *"Created_at"* was extracted and loaded into a Pandas DataFrame and four plots were created using Seaborn.<br/>
+1. Montly distribution of Tweets.
+2. Weekday distribution of Tweets.
+3. Date of the year distribution of Tweets.
+4. Hourly distribution of Tweets.
 
 ## Sentiment analysis
+For this analysis the metadata *"Created_at"* and *"text"* was loaded into a Pandas DataFrame and all charachters that doesnt influence the sentiment was cleaned from the tweets. Then the lexicon rule-based sentiment tool VADER was used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score,each tweet was given a score between -1(most extreme negative) and +1(most extreme positive).<br/>
+
+Each tweet was then classified into either positive, negative or neutral based on the sentiment score given by VADER. The classification into the respective categories was based using the typical threshold for classifying the polarity in text as follows. 
+* **Positive Sentiment:** Compound score > 0.05
+* **Negative Sentiment:** Compound score < -0.05
+* **Neutral Sentiment:** -0.05 < Compound score < 0. 
+<br/>
+Four plots were then created for each park as follows:
+1. Seasonal distribution of Sentiment.
+2. Monthly distribution of Sentiment.
+3. Weekday distribution of Sentiment.
+4. Hourly distribution of Sentiment. 
+
+
+
 
 ## Topic Modeling
 
