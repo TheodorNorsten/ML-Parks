@@ -6,7 +6,8 @@ For full despricption: [Degree report](http://www.diva-portal.se/smash/get/diva2
 This project Uses Natural Langugage Processing techniques based on Tweets from Twitter in order to understand the usage of parks in Stockholm. Data from Twitter were first obtained through Twitters open API. Data from three parks in Stockholm were collected between the periods 2015-2019. Following three parks were seleted:
 1. **Hagaparken**.
 2. **Skogskyrkogården**.
-3. **Rålambshovsparken**.<br/>
+3. **Rålambshovsparken**.
+<br/>
 Three analysis were then performed, Temporal, Sentiment and Topic Modeling analysis. Each analysis aimed to answer the following questions:
 
 * **Temporal analysis**: How does the distribution of parks vary over time? Yearly,monthly,weekly,hourly, and seasonally.
