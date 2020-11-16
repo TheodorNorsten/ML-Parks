@@ -62,14 +62,14 @@ Twitter data for ech park was obtained through a conditional statement including
 **Obtained Tweets for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
 <br/>
 
-The response of the above request is a JSON-object containing a large amount of metadata for which the metadta ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
+The response of the above request is a **JSON-object** containing a large amount of metadata for which the metadta ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
 
 ## Temporal analysis
-For this analysis the metadata *"Created_at"* was extracted and loaded into a Pandas DataFrame and four plots were created using Seaborn.<br/>
-1. Montly distribution of Tweets.
-2. Weekday distribution of Tweets.
-3. Date of the year distribution of Tweets.
-4. Hourly distribution of Tweets.
+For this analysis the metadata ***"Created_at"*** was extracted and loaded into a Pandas DataFrame and four graphs were created using Seaborn.<br/>
+1. **Montly** distribution of park-Tweets.
+2. **Weekday** distribution of park-Tweets.
+3. **Date of the year** distribution of park-Tweets.
+4. **Hourly** distribution of park-Tweets.
 
 ## Sentiment analysis
 For this analysis the metadata *"Created_at"* and *"text"* was loaded into a Pandas DataFrame and all charachters that doesnt influence the sentiment was cleaned from the tweets. Then the lexicon rule-based sentiment tool VADER was used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score,each tweet was given a score between -1(most extreme negative) and +1(most extreme positive).<br/>
