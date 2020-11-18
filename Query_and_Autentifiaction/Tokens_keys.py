@@ -1,9 +1,9 @@
 
-# This file stores all the autentification keys and gets imported to the "Twitter_Query_Parks.py"  file
+# This file stores all the autentification keys and gets imported to the "Twitter_Query_Parks.py"  file.
+# Fill in below autentification-keys variables with your unique ones.
 
 
-
-Access_token ='1259977888444624899-EfSNQSo1Vmz0f35yjNQnqdKm5JzuSr'
-Access_token_secret ='sVElyaUh7eHBQPiAzQjp7UaqO3zGU3qQNXsfpGq3wU4yj'
-Consumer_apikey ='41401JwiiIsNc97Wyr8Tk8vPf'
-Consumer_secret_apikey ='ZHakTt9E0PUkNGj0oImQgWCxvi5FhrGS8HNQm3HWHRQqcBHTk6'
+Access_token =''
+Access_token_secret =''
+Consumer_apikey =''
+Consumer_secret_apikey =''
