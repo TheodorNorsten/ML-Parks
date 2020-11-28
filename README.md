@@ -79,6 +79,7 @@ For this analysis the metadata ***"Created_at"*** was extracted and loaded into 
 3. **Date of the year** distribution of park-Tweets.
 4. **Hourly** distribution of park-Tweets.
 
+### Associated file
 The logic behind this analysis can be found in the **"Temporal_Analysis.ipynb"** file( under the Analysis folder).
 
 ## Sentiment analysis
@@ -97,6 +98,7 @@ Four plots were then created for each park as follows:
 3. **Weekday** distribution of Sentiment Score.
 4. **Hourly** distribution of Sentiment. 
 
+### Associated file
 The logic behind this analysis can be found in the **"Sentiment_Analysis.ipynb"** file( under the Analysis folder).
 
 ## Topic Modeling
@@ -113,7 +115,8 @@ Two plots were then created for each park.
 1. **Word-cloud plot:** Visualizing the twenty most common words expressed.
 2. **Bar plot:** Visualizing the distribution of tweets talking about one of the ***k*** topics.
 
-
+### Associated files
+In contrast to the two above analysis the Topic modeling analysis contains one file for each analysis. This is because the data cleaning was unique for each park.
 
 
 
