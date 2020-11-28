@@ -51,7 +51,7 @@ Used for Topic modeling.
 In order to obtain data from Twitters API, authentication-keys is needed which requires a developer account. 
 1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Authentication keys.
-3. Add the Authentication keys in the 
+3. Add the authentication keys(created in step 2) into "Tokens_Keys.py" file(in the "Query_and_Authentication" folder).
 
 ## Twitter Data
 Data from Twitter were obtained through Twitters API. **The premium search API** was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
