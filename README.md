@@ -1,5 +1,5 @@
-# Using NLP based on Tweets to understand the Usage of parks in Stockholm.
-This project was conducted as a Bachelor thesis were I explored the potential of Twitter-data and NLP techniques to understand the Usage of parks in Stockholm.
+# Using Machine Learning based on Tweets to understand the Usage of parks in Stockholm.
+This project was conducted as a Bachelor thesis were I explored the potential of Natural langugage Processing(NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to read, understand and dervie meaning from the human language through text or speech.
 <br/>
 For full description: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
 ## Introduction
@@ -48,9 +48,10 @@ Used for Topic modeling.
 > pip install gensim <br/>
 
 ### 2. Twitter API key
-In order to obtain data from Twitters API, autentification-keys is needed which requires a developer account. 
+In order to obtain data from Twitters API, authentication-keys is needed which requires a developer account. 
 1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
-2. Generate Autentification keys.
+2. Generate Authentication keys.
+3. Add the Authentication keys in the 
 
 ## Twitter Data
 Data from Twitter were obtained through Twitters API. **The premium search API** was used which allows users to make 30 request every minute with a maximum of of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
