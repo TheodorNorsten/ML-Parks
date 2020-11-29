@@ -1,7 +1,9 @@
 # Using Machine Learning based on Tweets to understand the Usage of parks in Stockholm.
-This project was conducted as a Bachelor thesis were I explored the potential of Natural langugage Processing(NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to read, understand and dervie meaning from the human language through text or speech.
+This project was conducted as a Bachelor thesis were I explored the potential of Natural langugage Processing(NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to understand, analyze and potentially generate human language. The purpose of NLP is to analyze large amount of unstructured data, speech or text, and derive meaning from it. 
 <br/>
+
 For full description: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
+
 ## Introduction
 This project Uses Natural Langugage Processing techniques based on Tweets from Twitter in order to understand the usage of parks in Stockholm. Data from Twitter were first obtained through Twitters open API. Data from three parks in Stockholm were collected between the periods 2015-2019. Following three parks were seleted:
 1. **Hagaparken**.
@@ -11,11 +13,11 @@ This project Uses Natural Langugage Processing techniques based on Tweets from T
 Three analysis were then performed, **Temporal**, **Sentiment** and **Topic Modeling** analysis. Following questions were then investigated:<br/>
 
 * **Temporal analysis**: *How does the distribution of parks vary over time? Yearly, monthly, weekly, hourly and seasonally*.
-* **Sentiment analysis**: *What sentiment, positive ,negative or neutral are associated with Tweets from parks*.
+* **Sentiment analysis**: *What sentiment,positive,negative or neutral are associated with Tweets from parks*.
 * **Topic Modeling analysis**: *What are the activities people engage in while visiting parks*.
 
 ## Built with
-Throughout the project **Python** was used. Each analysis was completed using **Jupyter notebook** environment. **Pandas DataFrame** was used for data manipulation, preprocessing and analysis. The Sentiment analysis classification was performed using the **VADER** lexicon and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
+Throughout the project **Python** was used. Each analysis was completed using the **Jupyter notebook** environment. **Pandas DataFrame** was used for data manipulation, preprocessing and analysis. The Sentiment analysis classification was performed using the **VADER** lexicon and corresponding data preprocessing used pythons **nltk** library. The Topic modeling algorithm used was the **LDA-model**. All grahps was created using **Seaborn**.
 
 * [Python](https://www.python.org/)
 * [Jupyter notebook](https://jupyter.org/)
@@ -33,7 +35,7 @@ Used for data analysis and preprocessing.
 > pip install pandas 
 
 * **Jupyter notebook** <br/>
-Open-source web application that with the ability to create and share documents that contain live code.
+Open-source web application that allows you to create and share documents containing live code.
 > pip install jupyterlab
 
 * **Seaborn** <br/>
