@@ -5,7 +5,7 @@ This project was conducted as a Bachelor thesis were, I explored the potential o
 For full description: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
 
 ## Introduction
-This project Uses Natural Langugage Processing techniques based on Tweets from Twitter in order to understand the usage of parks in Stockholm. Data from Twitter were first obtained through Twitters open API. Data from three parks in Stockholm were collected between the periods 2015-2019. Following three parks were selected:
+This project Uses Natural Langugage Processing techniques based on Tweets from the social media platform, Twitter in order to understand the usage of parks in Stockholm. Data from Twitter were first obtained through Twitters open API. Data from three parks in Stockholm were collected between the periods 2015-2019. Following three parks were selected:
 1. **Hagaparken**.
 2. **Skogskyrkogården**.
 3. **Rålambshovsparken**.<br/>
