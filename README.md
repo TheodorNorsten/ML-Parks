@@ -1,4 +1,4 @@
-# Using Machine Learning based on Tweets to understand the Usage of parks in Stockholm.
+# Using Machine Learning applied on Twitter data to understand the Usage of parks in Stockholm.
 This project was conducted as a Bachelor thesis were, I explored the potential of Natural language Processing (NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to understand, analyze and potentially generate human language. The purpose of NLP is to analyze large amount of unstructured data, speech or text, and derive meaning from it. 
 <br/>
 
