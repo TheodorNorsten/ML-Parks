@@ -56,7 +56,7 @@ Used for Topic modeling.
 
 ### 2. Twitter API key
 In order to obtain data from Twitters API, authentication-keys is needed which requires a developer account. 
-1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
+1. Create a free Twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Authentication keys.
 3. Add the authentication keys(created in step 2) into the file **"Tokens_Keys.py"** (in the "Query_and_Authentication" folder).
 
