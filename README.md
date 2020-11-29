@@ -72,7 +72,8 @@ Twitter data for each park was obtained through a conditional statement includin
 
 The response of the above request is a **JSON-object** containing a large amount of metadata for which the metadta ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
 <br/>
-Each **JSON-object** for each park can be found in the **"TwitterData_Json"** folder. 
+### Associated file
+Each **JSON-object** beloning to the respective park can be found in the **"TwitterData_Json"** folder. 
 
 ## Temporal analysis
 For this analysis the metadata ***"Created_at"*** was extracted and loaded into a Pandas DataFrame and four graphs were created using Seaborn.<br/>
