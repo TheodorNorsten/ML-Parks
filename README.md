@@ -121,9 +121,9 @@ Two plots were then created for each park.
 ### Associated files
 In contrast to the Temporal-and-Sentiment analysis the Topic modeling analysis contains one file for each park. Where each file takes a JSON-object as input beloing to the respective park. This is because the topic modeling analysis contains additional cleaning steps unique for each park. The logic behind this analysis can be found in the folder **"Analysis"** where the associated files for each park is the following:
 
-* **Topic modeling_Hagaparken.ipynb**.
-* **Topic modeling_Skogskyrkogården.ipynb**.
-* **Topic modeling_Rålambshovsparken.ipynb**.
+* *Topic modeling_Hagaparken.ipynb*.
+* *Topic modeling_Skogskyrkogården.ipynb*.
+* *Topic modeling_Rålambshovsparken.ipynb*.
 
 
 
