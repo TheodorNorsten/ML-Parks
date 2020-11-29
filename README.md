@@ -83,12 +83,12 @@ For this analysis the metadata ***"Created_at"*** was extracted and loaded into 
 4. **Hourly** distribution of park-Tweets.
 
 ### Associated file
-The logic behind this analysis can be found in the **"Temporal_Analysis.ipynb"** file( under the Analysis folder).
+The logic behind this analysis can be found in the file **"Temporal_Analysis.ipynb"**(under the Analysis folder). The script takes a JSON-object as input. 
 
 ## Sentiment analysis
 For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. The text-data was first cleaned for all characters that doesnt influence the sentiment then stemmed and furthermore cleaned for stopwords using **nltk**. Then the **VADER** lexicon was  used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score, each tweet was given a score between **-1**(most extreme negative) and **+1**(most extreme positive).<br/>
 
-Each tweet was then classified into either **positive**, **negative** or **neutral** based on the sentiment score given by VADER. The classification into the respective categories was based using the typical threshold for classifying the polarity in text as follows. 
+Each tweet was then classified into either **positive**,**negative** or **neutral** based on the sentiment score given by VADER. The classification into the respective categories was based using the typical threshold for classifying the polarity in text as follows. 
 * **Positive Sentiment:** Compound score > 0.05
 * **Negative Sentiment:** Compound score < -0.05
 * **Neutral Sentiment:** -0.05 < Compound score < 0.05
@@ -102,7 +102,7 @@ Four plots were then created for each park as follows:
 4. **Hourly** distribution of Sentiment. 
 
 ### Associated file
-The logic behind this analysis can be found in the **"Sentiment_Analysis.ipynb"** file( under the Analysis folder).
+The logic behind this analysis can be found in the file **"Sentiment_Analysis.ipynb"**(under the Analysis folder). The script takes a JSON-object as input. 
 
 ## Topic Modeling
 For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. All characters that wasnt a alphabetic letter was then removed. Only **nouns**, **adjective** and **verbs** was used for analysis. After this step the DataFrame could be transformed into a **Document Term Matrix** which is the required input in Topic modeling and then by using the Python module Gensim the **LDA algorithm** could be implemented. 
@@ -119,7 +119,8 @@ Two plots were then created for each park.
 2. **Bar plot:** Visualizing the distribution of tweets talking about one of the ***k*** topics.
 
 ### Associated files
-In contrast to the two above analysis the Topic modeling analysis contains one file for each analysis. This is because the data cleaning was unique for each park.
+In contrast to the Temporal-and-Sentiment analysis the Topic modeling analysis contains one file for each park. Where each file takes a JSON-object as input beloing to the respective park. This is because the topic modeling analysis contains additional cleaning steps unique for each park. 
+
 
 
 
