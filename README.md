@@ -1,5 +1,5 @@
 # Using Machine Learning based on Tweets to understand the Usage of parks in Stockholm.
-This project was conducted as a Bachelor thesis were, I explored the potential of Natural language Processing(NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to understand, analyze and potentially generate human language. The purpose of NLP is to analyze large amount of unstructured data, speech or text, and derive meaning from it. 
+This project was conducted as a Bachelor thesis were, I explored the potential of Natural language Processing (NLP) techniques based on Twitter data to understand the Usage of parks in Stockholm. NLP is a field within Machine learning with the ability of a computer to understand, analyze and potentially generate human language. The purpose of NLP is to analyze large amount of unstructured data, speech or text, and derive meaning from it. 
 <br/>
 
 For full description: [Degree report](http://www.diva-portal.se/smash/get/diva2:1453846/FULLTEXT01.pdf)
@@ -58,19 +58,19 @@ Used for Topic modeling.
 In order to obtain data from Twitters API, authentication-keys is needed which requires a developer account. 
 1. Create a free twitter developer account. [Creating Free account and Getting started Step by Step](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide)
 2. Generate Authentication keys.
-3. Add the authentication keys(created in step 2) into the file **"Tokens_Keys.py"**(in the "Query_and_Authentication" folder).
+3. Add the authentication keys(created in step 2) into the file **"Tokens_Keys.py"** (in the "Query_and_Authentication" folder).
 
 ## Twitter Data
 Data from Twitter were obtained through Twitters API. **The premium search API** was used which allows users to make 30 request every minute with a maximum of 100 tweets being obtained for each request and with a limit of 50 request each minute. 
 * [Premium search query](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/premium-search)
 
-Twitter data for each park was obtained through a conditional statement including Keyword, hashtag(#) and bounding box as follows:
+Twitter data for each park was obtained through a conditional statement including Keyword, hashtag (#) and bounding box as follows:
 <br/>
 
-**Obtained Twitter-data for each park** = *Keyword* **OR** *Hashtag(#)* **OR** *Bounding box*.
+**Obtained Twitter-data for each park** = *Keyword* **OR** *Hashtag (#)* **OR** *Bounding box*.
 <br/>
 
-The response of the above request is a **JSON-object** containing a large number of metadata for which the metadata ***"Created_at"***(timestamp) and ***"text"***(Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
+The response of the above request is a **JSON-object** containing a large number of metadata for which the metadata ***"Created_at"*** (timestamp) and ***"text"*** (Tweet) were extracted and cleaned for duplicates before respective analysis was performed. 
 <br/>
 ### Associated file
 Each **JSON-object** belonging to the respective park can be found in the **"TwitterData_Json"** folder. 
@@ -83,10 +83,10 @@ For this analysis the metadata ***"Created_at"*** was extracted and loaded into 
 4. **Hourly** distribution of park-Tweets.
 
 ### Associated file
-The logic behind this analysis can be found in the file **"Temporal_Analysis.ipynb"**(under the Analysis folder). The script takes a JSON-object as input. 
+The logic behind this analysis can be found in the file **"Temporal_Analysis.ipynb"** (under the Analysis folder). The script takes a JSON-object as input. 
 
 ## Sentiment analysis
-For this analysis, the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. The text-data was first cleaned for all characters that doesn’t influence the sentiment then stemmed and furthermore cleaned for stop words using **nltk**. Then the **VADER** lexicon was  used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score, each tweet was given a score between **-1**(most extreme negative) and **+1**(most extreme positive).<br/>
+For this analysis, the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. The text-data was first cleaned for all characters that doesn’t influence the sentiment then stemmed and furthermore cleaned for stop words using **nltk**. Then the **VADER** lexicon was  used to automatically classify each tweet according to its semantic orientation. The compound metric was used for the classification of the sentiment score, each tweet was given a score between **-1** (most extreme negative) and **+1** (most extreme positive).<br/>
 
 Each tweet was then classified into either **positive**, **negative**, or **neutral** based on the sentiment score given by VADER. The classification into the respective categories was based using the typical threshold for classifying the polarity in text as follows. 
 * **Positive Sentiment:** Compound score > 0.05
@@ -102,7 +102,7 @@ Four plots were then created for each park as follows:
 4. **Hourly** distribution of Sentiment. 
 
 ### Associated file
-The logic behind this analysis can be found in the file **"Sentiment_Analysis.ipynb"**(under the Analysis folder). The script takes a JSON-object as input. 
+The logic behind this analysis can be found in the file **"Sentiment_Analysis.ipynb"** (under the Analysis folder). The script takes a JSON-object as input. 
 
 ## Topic Modeling
 For this analysis the metadata ***"Created_at"*** and ***"text"*** was loaded into a Pandas DataFrame. All characters that were not alphabetic letter was then removed. Only **nouns**, **adjective** and **verbs** were used for analysis. After this step, the DataFrame could be transformed into a **Document Term Matrix** which is the required input in Topic modeling and then by using the Python module Gensim the **LDA algorithm** could be implemented. 
